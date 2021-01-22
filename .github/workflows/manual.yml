@@ -14,7 +14,7 @@ on:
         # Default value if no value is explicitly provided
         default: 'World'
         # Input has to be provided for the workflow to run
-        required: true
+        required: true 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,9 +27,10 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
-      continue-on-error: 
-    control + space 
-      git branch -m main <BRANCH>
-git fetch origin
-git branch -u origin/<BRANCH> <BRANCH>
+      run: echo "Hello ${{ 
+github.event.inputs.name }}"
+        continue-on-error: true
+    git branch -m main <BRANCH>
+    git fetch origin
+     git branch -u origin/<BRANCH>
+<BRANCH>
