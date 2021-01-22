@@ -28,5 +28,5 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
-      continue-on-error: false
-   control + space 
+      continue-on-error: 
+    control + space 
