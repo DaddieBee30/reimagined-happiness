@@ -30,3 +30,6 @@ jobs:
       run: echo "Hello ${{ github.event.inputs.name }}"
       continue-on-error: 
     control + space 
+      git branch -m main <BRANCH>
+git fetch origin
+git branch -u origin/<BRANCH> <BRANCH>
